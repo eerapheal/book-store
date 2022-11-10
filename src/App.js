@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Header from './components/Header';
+import Books from './components/Books';
+import Categories from './components/Categories';
 
 // eslint-disable-next-line
 class App extends Component {
@@ -11,8 +12,7 @@ class App extends Component {
         <Header />
         <Routes>
           <Route path="/" element={<Books />} />
-          <Route path="/statement" element={<Statement />} />
-          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/categories" element={<Categories />} />
         </Routes>
       </Router>
     );

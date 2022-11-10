@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.booksPlace {
+  padding: 120px 25px 0;
+}
+
+form {
+  padding: 25px 25px;
+}
+
+.Status {
+  padding: 120px 25px;
+}

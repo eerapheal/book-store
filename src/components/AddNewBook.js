@@ -5,5 +5,5 @@ const AddNewBook = () => (
     <button type="submit">ADD BOOK</button>
   </form>
 );
-  
+
 export default AddNewBook;
