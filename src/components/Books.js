@@ -1,4 +1,6 @@
 import React from 'react';
+import Book from './Book';
+import AddNewBook from './AddNewBook';
 
 const Books = () => (
     <>
