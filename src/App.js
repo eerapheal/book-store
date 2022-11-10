@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Header from './components/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// eslint-disable-next-line
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Books />} />
+          <Route path="/statement" element={<Statement />} />
+          <Route path="/calculator" element={<Calculator />} />
+        </Routes>
+      </Router>
+    );
+  }
 }
 
 export default App;
