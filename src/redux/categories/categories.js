@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const CHECK_STATUS = 'CHECK_STATUS';
 const initState = {
   books: [],
