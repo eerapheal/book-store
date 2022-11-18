@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
@@ -17,16 +16,16 @@ const removeBook = (id) => ({
 const initialState = [
   {
     id: 0,
-    title: 'Book A',
-    author: 'Author A',
+    title: 'React-Redux',
+    author: 'RALPH',
   },
   {
     id: 1,
-    title: 'Book B',
-    author: 'Author B',
+    title: 'JS FILE',
+    author: 'RALPH',
   }, {
     id: 2,
-    title: 'Book C',
+    title: 'HTML CSS',
     author: 'Author C',
   },
 ];

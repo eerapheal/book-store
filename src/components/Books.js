@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable */ 
 import { useSelector } from 'react-redux';
 import Book from './Book';
 import AddNewBook from './AddNewBook';

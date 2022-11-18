@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line
 import styles from './Header.modules.css';

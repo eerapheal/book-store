@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { combineReducers } from 'redux';
 import { configureStore } from '@reduxjs/toolkit';
 import handleBook from './books/books';

@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
 const checkStatus = () => ({ type: CHECK_STATUS });
