@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { useDispatch } from 'react-redux';
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
@@ -24,7 +23,7 @@ const Form = () => {
   const titleInput = (e) => {
     setTitle(e.target.value);
   };
-  // eslint-disable-next-line
+
   console.log(title);
   const authorInput = (e) => {
     setAuthor(e.target.value);

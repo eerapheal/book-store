@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/book/book';

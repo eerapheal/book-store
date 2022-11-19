@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { useDispatch, useSelector } from 'react-redux';
 import { category } from '../redux/categories/categories';
 
