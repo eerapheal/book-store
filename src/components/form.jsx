@@ -24,7 +24,6 @@ const Form = () => {
     setTitle(e.target.value);
   };
 
-  console.log(title);
   const authorInput = (e) => {
     setAuthor(e.target.value);
   };

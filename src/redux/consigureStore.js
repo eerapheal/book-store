@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { configureStore, combineReducers, applyMiddleware } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import bookReducer from './book/book';
