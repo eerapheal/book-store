@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/book/book';
-/* eslint-disable */
-const Book = ({ title, author, id, category }) => {
+// eslint-disable-next-line
+import styles from './home.modules.css';
+const Book = ({
+  title, author, id, category,
+}) => {
   const dispatch = useDispatch();
 
   const deleted = () => {
@@ -12,7 +15,11 @@ const Book = ({ title, author, id, category }) => {
   return (
     <section className="sec flex jstSpb aliCnt">
       <div className="firstDiv">
-        <p className="category"> {category}</p>
+        <p className="category">
+          {
+            category
+          }
+        </p>
         <p className="title">{title}</p>
         <p className="author">{author}</p>
         <div className="btnDiv flex">
@@ -35,7 +42,7 @@ const Book = ({ title, author, id, category }) => {
           CURRENT CHAPTER
         </h4>
         <h4 className="chapter">
-          Chapter 15
+          Chapter 7
         </h4>
         <button type="button" className="progress">
           UPDATE PROGRESS

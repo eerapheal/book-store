@@ -1,13 +1,23 @@
 import { Link } from 'react-router-dom';
+import { FaUserAlt } from 'react-icons/fa';
 // eslint-disable-next-line
-import styles from './Header.modules.css';
+import styles from './navbar.modules.css';
 
 const Header = () => (
-  <div className="nav-links">
-    <h1 className="logo">DeRalph</h1>
-    <Link className="navLinks" to="/">Books</Link>
-    <Link className="navLinks" to="/categories">Categories</Link>
-  </div>
+  <nav className="nav flex aliCnt jstSpb">
+    <div className="flex gapMd">
+      <div>
+        <h3 className="header">Bookstore CMS</h3>
+      </div>
+      <div className="navDiv gap20 flex jstCnt aliCnt">
+        <Link className="link link1" to="/">BOOKS</Link>
+        <Link className="link link2" to="/category">CATEGORIES</Link>
+      </div>
+    </div>
+    <div className="icon">
+      <FaUserAlt className="font_icon" />
+    </div>
+  </nav>
 );
 
 export default Header;
