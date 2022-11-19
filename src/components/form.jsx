@@ -2,7 +2,6 @@ import { useDispatch } from 'react-redux';
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../redux/book/book';
-// eslint-disable-next-line
 import styles from './form.modules.css';
 
 const Form = () => {
