@@ -1,9 +1,10 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Provider } from 'react-redux';
 import App from './App';
-import store from './redux/configureStore';
+import store from './redux/consigureStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

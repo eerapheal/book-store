@@ -1,22 +1,23 @@
-import React, { Component } from 'react';
+/* eslint-disable linebreak-style */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Books from './components/Books';
-import Categories from './components/Categories';
+import Header from './components/navbar';
+import Books from './components/book';
+import Categories from './components/categories';
+import './index.css';
 
-// eslint-disable-next-line
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <Header />
+const App = () => (
+  <>
+    <Router>
+      <Header />
+
+      <div className="center">
         <Routes>
           <Route path="/" element={<Books />} />
-          <Route path="/categories" element={<Categories />} />
+          <Route path="/category" element={<Categories />} />
         </Routes>
-      </Router>
-    );
-  }
-}
+      </div>
+    </Router>
+  </>
+);
 
 export default App;

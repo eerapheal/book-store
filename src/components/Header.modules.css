@@ -1,16 +1,16 @@
 .nav-links {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
-
-.logo {
-  font-size: 34px;
-  font-weight: 600;
-}
-
-.navLinks {
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-}
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .logo {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  
+  .navLinks {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
