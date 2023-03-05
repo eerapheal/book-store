@@ -15,3 +15,46 @@ form {
 .Status {
   padding: 120px 25px;
 }
+
+.gap10 {
+  gap: 10px;
+}
+
+.gap20 {
+  gap: 20px;
+}
+
+.gap30 {
+  gap: 30px;
+}
+
+.gap40 {
+  gap: 40px;
+}
+
+.header {
+  text-decoration: none;
+  color: var(--blue-color);
+  font-family: var(--Mon-font);
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.gapMd {
+  gap: 30px;
+}
+
+.jstCnt {
+  justify-content: center;
+}
+
+.jstSpb {
+  justify-content: space-between;
+}
+
+.aliCnt {
+  align-items: center;
+}
